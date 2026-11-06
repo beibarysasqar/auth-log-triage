@@ -1,0 +1,22 @@
+title: User Added To Privileged Group On Linux
+id: 482a49a5-f2b6-45c7-92d6-ca52dfe6e00c
+status: experimental
+description: >
+  Detects useradd or usermod adding an account to a privileged group
+  (sudo, wheel, adm, root). Attackers do this to keep elevated access.
+author: auth-log-triage demo
+date: 2026-11-05
+tags:
+  - attack.persistence
+  - attack.privilege_escalation
+  - attack.t1098
+logsource:
+  product: linux
+  service: auth
+detection:
+  selection:
+    Message|re: "(useradd|usermod)\\[\\d+\\]: add '\\S+' to (shadow )?group '(sudo|wheel|adm|root)'"
+  condition: selection
+falsepositives:
+  - Legitimate onboarding of a new administrator
+level: medium

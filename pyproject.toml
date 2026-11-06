@@ -2,4 +2,11 @@
 name = "auth-log-triage"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["pyyaml"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

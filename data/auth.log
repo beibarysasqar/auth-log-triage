@@ -1,0 +1,300 @@
+Nov  5 08:00:00 web01 CRON[8956]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 08:12:00 web01 CRON[8886]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 08:15:05 web01 sshd[4872]: Accepted publickey for carol from 192.0.2.12 port 64692 ssh2
+Nov  5 08:15:05 web01 sshd[4872]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 08:24:00 web01 CRON[4502]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 08:27:35 web01 sshd[9928]: Accepted password for carol from 192.0.2.12 port 46515 ssh2
+Nov  5 08:27:35 web01 sshd[9928]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 08:32:01 web01 sshd[4582]: Accepted publickey for bob from 192.0.2.11 port 43070 ssh2
+Nov  5 08:32:01 web01 sshd[4582]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 08:32:51 web01 sshd[7572]: Accepted password for alice from 192.0.2.10 port 50336 ssh2
+Nov  5 08:32:51 web01 sshd[7572]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 08:36:00 web01 CRON[7570]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 08:45:51 web01 sshd[7572]: Disconnected from user alice 192.0.2.10 port 50336
+Nov  5 08:48:00 web01 CRON[1960]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 09:00:00 web01 CRON[3697]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 09:00:14 web01 sshd[1514]: Accepted password for alice from 192.0.2.10 port 42208 ssh2
+Nov  5 09:00:14 web01 sshd[1514]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 09:00:35 web01 sshd[9928]: Disconnected from user carol 192.0.2.12 port 46515
+Nov  5 09:05:21 web01 sshd[4770]: Accepted publickey for alice from 192.0.2.10 port 40689 ssh2
+Nov  5 09:05:21 web01 sshd[4770]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 09:10:00 web01 sshd[5002]: Failed password for carol from 198.51.100.23 port 52108 ssh2
+Nov  5 09:10:21 web01 sshd[4770]: Disconnected from user alice 192.0.2.10 port 40689
+Nov  5 09:12:00 web01 CRON[7209]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 09:12:05 web01 sshd[4872]: Disconnected from user carol 192.0.2.12 port 64692
+Nov  5 09:13:38 web01 sshd[3803]: Accepted publickey for bob from 192.0.2.11 port 60806 ssh2
+Nov  5 09:13:38 web01 sshd[3803]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 09:14:00 web01 sshd[1152]: Failed password for bob from 198.51.100.7 port 55017 ssh2
+Nov  5 09:14:14 web01 sshd[1514]: Disconnected from user alice 192.0.2.10 port 42208
+Nov  5 09:17:28 web01 sshd[2604]: Accepted publickey for alice from 192.0.2.10 port 58033 ssh2
+Nov  5 09:17:28 web01 sshd[2604]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 09:20:05 web01 sshd[8962]: Accepted publickey for carol from 192.0.2.12 port 63983 ssh2
+Nov  5 09:20:05 web01 sshd[8962]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 09:24:00 web01 CRON[1035]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 09:33:48 web01 sshd[2796]: Accepted publickey for bob from 192.0.2.11 port 41543 ssh2
+Nov  5 09:33:48 web01 sshd[2796]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 09:36:00 web01 CRON[7396]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 09:36:06 web01 sshd[8062]: Accepted password for alice from 192.0.2.10 port 61593 ssh2
+Nov  5 09:36:06 web01 sshd[8062]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 09:38:38 web01 sshd[3803]: Disconnected from user bob 192.0.2.11 port 60806
+Nov  5 09:41:01 web01 sshd[4582]: Disconnected from user bob 192.0.2.11 port 43070
+Nov  5 09:44:43 web01 sshd[9935]: Accepted publickey for alice from 192.0.2.10 port 64270 ssh2
+Nov  5 09:44:43 web01 sshd[9935]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 09:48:00 web01 CRON[5345]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 09:54:01 web01 sshd[5506]: Accepted publickey for carol from 192.0.2.12 port 64299 ssh2
+Nov  5 09:54:01 web01 sshd[5506]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 10:00:00 web01 CRON[8454]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 10:07:59 web01 sshd[2291]: Accepted password for carol from 192.0.2.12 port 52403 ssh2
+Nov  5 10:07:59 web01 sshd[2291]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 10:10:00 web01 sshd[9900]: Failed password for root from 203.0.113.77 port 63053 ssh2
+Nov  5 10:11:42 web01 sshd[3705]: Accepted password for alice from 192.0.2.10 port 55574 ssh2
+Nov  5 10:11:42 web01 sshd[3705]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 10:12:00 web01 CRON[5673]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 10:20:00 web01 sshd[5956]: Failed password for root from 203.0.113.77 port 60043 ssh2
+Nov  5 10:24:00 web01 CRON[7930]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 10:27:01 web01 sshd[5506]: Disconnected from user carol 192.0.2.12 port 64299
+Nov  5 10:30:00 web01 sshd[9666]: Failed password for root from 203.0.113.77 port 40256 ssh2
+Nov  5 10:33:05 web01 sshd[8962]: Disconnected from user carol 192.0.2.12 port 63983
+Nov  5 10:35:06 web01 sshd[8062]: Disconnected from user alice 192.0.2.10 port 61593
+Nov  5 10:36:00 web01 CRON[8973]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 10:39:13 web01 sshd[2674]: Accepted publickey for bob from 192.0.2.11 port 51029 ssh2
+Nov  5 10:39:13 web01 sshd[2674]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 10:40:00 web01 sshd[5905]: Failed password for root from 203.0.113.77 port 61737 ssh2
+Nov  5 10:45:28 web01 sshd[2604]: Disconnected from user alice 192.0.2.10 port 58033
+Nov  5 10:48:00 web01 CRON[3536]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 10:50:00 web01 sshd[2697]: Failed password for root from 203.0.113.77 port 44400 ssh2
+Nov  5 10:58:48 web01 sshd[2796]: Disconnected from user bob 192.0.2.11 port 41543
+Nov  5 11:00:00 web01 CRON[4111]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 11:00:00 web01 sshd[5333]: Failed password for root from 203.0.113.77 port 43782 ssh2
+Nov  5 11:04:43 web01 sshd[9935]: Disconnected from user alice 192.0.2.10 port 64270
+Nov  5 11:10:00 web01 sshd[2753]: Failed password for root from 203.0.113.77 port 64327 ssh2
+Nov  5 11:12:00 web01 CRON[5861]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 11:20:00 web01 sshd[3546]: Failed password for root from 203.0.113.77 port 48924 ssh2
+Nov  5 11:23:42 web01 sshd[3705]: Disconnected from user alice 192.0.2.10 port 55574
+Nov  5 11:24:00 web01 CRON[4566]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 11:32:13 web01 sshd[2674]: Disconnected from user bob 192.0.2.11 port 51029
+Nov  5 11:32:59 web01 sshd[2291]: Disconnected from user carol 192.0.2.12 port 52403
+Nov  5 11:36:00 web01 CRON[1958]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 11:48:00 web01 CRON[9883]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 12:00:00 web01 CRON[1998]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 12:00:04 web01 sshd[5616]: Invalid user admin from 203.0.113.50 port 59819
+Nov  5 12:00:04 web01 sshd[5616]: Failed password for invalid user admin from 203.0.113.50 port 59819 ssh2
+Nov  5 12:00:08 web01 sshd[6617]: Invalid user test from 203.0.113.50 port 46671
+Nov  5 12:00:08 web01 sshd[6617]: Failed password for invalid user test from 203.0.113.50 port 46671 ssh2
+Nov  5 12:00:12 web01 sshd[9280]: Invalid user test from 203.0.113.50 port 56008
+Nov  5 12:00:12 web01 sshd[9280]: Failed password for invalid user test from 203.0.113.50 port 56008 ssh2
+Nov  5 12:00:16 web01 sshd[1832]: Invalid user oracle from 203.0.113.50 port 43024
+Nov  5 12:00:16 web01 sshd[1832]: Failed password for invalid user oracle from 203.0.113.50 port 43024 ssh2
+Nov  5 12:00:20 web01 sshd[5533]: Failed password for root from 203.0.113.50 port 41444 ssh2
+Nov  5 12:00:24 web01 sshd[6464]: Invalid user test from 203.0.113.50 port 44286
+Nov  5 12:00:24 web01 sshd[6464]: Failed password for invalid user test from 203.0.113.50 port 44286 ssh2
+Nov  5 12:00:28 web01 sshd[3647]: Invalid user oracle from 203.0.113.50 port 64288
+Nov  5 12:00:28 web01 sshd[3647]: Failed password for invalid user oracle from 203.0.113.50 port 64288 ssh2
+Nov  5 12:00:32 web01 sshd[8007]: Failed password for root from 203.0.113.50 port 58379 ssh2
+Nov  5 12:00:36 web01 sshd[2832]: Invalid user admin from 203.0.113.50 port 42465
+Nov  5 12:00:36 web01 sshd[2832]: Failed password for invalid user admin from 203.0.113.50 port 42465 ssh2
+Nov  5 12:00:40 web01 sshd[9938]: Invalid user test from 203.0.113.50 port 41180
+Nov  5 12:00:40 web01 sshd[9938]: Failed password for invalid user test from 203.0.113.50 port 41180 ssh2
+Nov  5 12:00:44 web01 sshd[3426]: Invalid user admin from 203.0.113.50 port 54083
+Nov  5 12:00:44 web01 sshd[3426]: Failed password for invalid user admin from 203.0.113.50 port 54083 ssh2
+Nov  5 12:00:48 web01 sshd[1685]: Invalid user test from 203.0.113.50 port 50101
+Nov  5 12:00:48 web01 sshd[1685]: Failed password for invalid user test from 203.0.113.50 port 50101 ssh2
+Nov  5 12:00:52 web01 sshd[1653]: Invalid user admin from 203.0.113.50 port 51724
+Nov  5 12:00:52 web01 sshd[1653]: Failed password for invalid user admin from 203.0.113.50 port 51724 ssh2
+Nov  5 12:00:56 web01 sshd[5088]: Failed password for root from 203.0.113.50 port 61854 ssh2
+Nov  5 12:01:00 web01 sshd[6794]: Invalid user oracle from 203.0.113.50 port 58346
+Nov  5 12:01:00 web01 sshd[6794]: Failed password for invalid user oracle from 203.0.113.50 port 58346 ssh2
+Nov  5 12:01:04 web01 sshd[3532]: Invalid user admin from 203.0.113.50 port 47757
+Nov  5 12:01:04 web01 sshd[3532]: Failed password for invalid user admin from 203.0.113.50 port 47757 ssh2
+Nov  5 12:01:08 web01 sshd[3900]: Failed password for root from 203.0.113.50 port 53510 ssh2
+Nov  5 12:01:12 web01 sshd[3938]: Invalid user test from 203.0.113.50 port 64135
+Nov  5 12:01:12 web01 sshd[3938]: Failed password for invalid user test from 203.0.113.50 port 64135 ssh2
+Nov  5 12:01:16 web01 sshd[7745]: Invalid user admin from 203.0.113.50 port 61951
+Nov  5 12:01:16 web01 sshd[7745]: Failed password for invalid user admin from 203.0.113.50 port 61951 ssh2
+Nov  5 12:01:20 web01 sshd[5371]: Failed password for root from 203.0.113.50 port 45216 ssh2
+Nov  5 12:01:24 web01 sshd[7267]: Invalid user oracle from 203.0.113.50 port 41268
+Nov  5 12:01:24 web01 sshd[7267]: Failed password for invalid user oracle from 203.0.113.50 port 41268 ssh2
+Nov  5 12:01:28 web01 sshd[4644]: Invalid user oracle from 203.0.113.50 port 46539
+Nov  5 12:01:28 web01 sshd[4644]: Failed password for invalid user oracle from 203.0.113.50 port 46539 ssh2
+Nov  5 12:01:32 web01 sshd[6728]: Invalid user admin from 203.0.113.50 port 50000
+Nov  5 12:01:32 web01 sshd[6728]: Failed password for invalid user admin from 203.0.113.50 port 50000 ssh2
+Nov  5 12:01:36 web01 sshd[4652]: Invalid user admin from 203.0.113.50 port 40775
+Nov  5 12:01:36 web01 sshd[4652]: Failed password for invalid user admin from 203.0.113.50 port 40775 ssh2
+Nov  5 12:01:40 web01 sshd[7528]: Invalid user test from 203.0.113.50 port 50756
+Nov  5 12:01:40 web01 sshd[7528]: Failed password for invalid user test from 203.0.113.50 port 50756 ssh2
+Nov  5 12:01:44 web01 sshd[2137]: Invalid user test from 203.0.113.50 port 49146
+Nov  5 12:01:44 web01 sshd[2137]: Failed password for invalid user test from 203.0.113.50 port 49146 ssh2
+Nov  5 12:01:48 web01 sshd[9346]: Invalid user ubuntu from 203.0.113.50 port 53096
+Nov  5 12:01:48 web01 sshd[9346]: Failed password for invalid user ubuntu from 203.0.113.50 port 53096 ssh2
+Nov  5 12:01:52 web01 sshd[6425]: Failed password for root from 203.0.113.50 port 40904 ssh2
+Nov  5 12:01:56 web01 sshd[5279]: Invalid user ubuntu from 203.0.113.50 port 45851
+Nov  5 12:01:56 web01 sshd[5279]: Failed password for invalid user ubuntu from 203.0.113.50 port 45851 ssh2
+Nov  5 12:02:00 web01 sshd[5349]: Failed password for root from 203.0.113.50 port 41253 ssh2
+Nov  5 12:02:04 web01 sshd[8119]: Invalid user test from 203.0.113.50 port 51327
+Nov  5 12:02:04 web01 sshd[8119]: Failed password for invalid user test from 203.0.113.50 port 51327 ssh2
+Nov  5 12:02:08 web01 sshd[8149]: Invalid user ubuntu from 203.0.113.50 port 59864
+Nov  5 12:02:08 web01 sshd[8149]: Failed password for invalid user ubuntu from 203.0.113.50 port 59864 ssh2
+Nov  5 12:02:12 web01 sshd[2894]: Invalid user ubuntu from 203.0.113.50 port 52622
+Nov  5 12:02:12 web01 sshd[2894]: Failed password for invalid user ubuntu from 203.0.113.50 port 52622 ssh2
+Nov  5 12:02:16 web01 sshd[4114]: Failed password for root from 203.0.113.50 port 48346 ssh2
+Nov  5 12:02:20 web01 sshd[8144]: Invalid user ubuntu from 203.0.113.50 port 40055
+Nov  5 12:02:20 web01 sshd[8144]: Failed password for invalid user ubuntu from 203.0.113.50 port 40055 ssh2
+Nov  5 12:02:24 web01 sshd[9821]: Invalid user admin from 203.0.113.50 port 62506
+Nov  5 12:02:24 web01 sshd[9821]: Failed password for invalid user admin from 203.0.113.50 port 62506 ssh2
+Nov  5 12:02:28 web01 sshd[6967]: Failed password for root from 203.0.113.50 port 54132 ssh2
+Nov  5 12:02:32 web01 sshd[6409]: Invalid user test from 203.0.113.50 port 60419
+Nov  5 12:02:32 web01 sshd[6409]: Failed password for invalid user test from 203.0.113.50 port 60419 ssh2
+Nov  5 12:02:36 web01 sshd[3041]: Invalid user test from 203.0.113.50 port 63584
+Nov  5 12:02:36 web01 sshd[3041]: Failed password for invalid user test from 203.0.113.50 port 63584 ssh2
+Nov  5 12:02:40 web01 sshd[9308]: Invalid user oracle from 203.0.113.50 port 50134
+Nov  5 12:02:40 web01 sshd[9308]: Failed password for invalid user oracle from 203.0.113.50 port 50134 ssh2
+Nov  5 12:02:44 web01 sshd[6344]: Invalid user test from 203.0.113.50 port 53185
+Nov  5 12:02:44 web01 sshd[6344]: Failed password for invalid user test from 203.0.113.50 port 53185 ssh2
+Nov  5 12:02:48 web01 sshd[3085]: Invalid user oracle from 203.0.113.50 port 46286
+Nov  5 12:02:48 web01 sshd[3085]: Failed password for invalid user oracle from 203.0.113.50 port 46286 ssh2
+Nov  5 12:02:52 web01 sshd[7211]: Invalid user admin from 203.0.113.50 port 62194
+Nov  5 12:02:52 web01 sshd[7211]: Failed password for invalid user admin from 203.0.113.50 port 62194 ssh2
+Nov  5 12:02:56 web01 sshd[5930]: Invalid user ubuntu from 203.0.113.50 port 53306
+Nov  5 12:02:56 web01 sshd[5930]: Failed password for invalid user ubuntu from 203.0.113.50 port 53306 ssh2
+Nov  5 12:03:00 web01 sshd[1006]: Invalid user test from 203.0.113.50 port 49957
+Nov  5 12:03:00 web01 sshd[1006]: Failed password for invalid user test from 203.0.113.50 port 49957 ssh2
+Nov  5 12:03:04 web01 sshd[4443]: Invalid user ubuntu from 203.0.113.50 port 54086
+Nov  5 12:03:04 web01 sshd[4443]: Failed password for invalid user ubuntu from 203.0.113.50 port 54086 ssh2
+Nov  5 12:03:08 web01 sshd[6279]: Invalid user oracle from 203.0.113.50 port 55236
+Nov  5 12:03:08 web01 sshd[6279]: Failed password for invalid user oracle from 203.0.113.50 port 55236 ssh2
+Nov  5 12:03:12 web01 sshd[8244]: Invalid user admin from 203.0.113.50 port 62138
+Nov  5 12:03:12 web01 sshd[8244]: Failed password for invalid user admin from 203.0.113.50 port 62138 ssh2
+Nov  5 12:03:16 web01 sshd[9375]: Invalid user admin from 203.0.113.50 port 55505
+Nov  5 12:03:16 web01 sshd[9375]: Failed password for invalid user admin from 203.0.113.50 port 55505 ssh2
+Nov  5 12:03:17 web01 sshd[8953]: Accepted publickey for carol from 192.0.2.12 port 61921 ssh2
+Nov  5 12:03:17 web01 sshd[8953]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 12:03:20 web01 sshd[2389]: Invalid user ubuntu from 203.0.113.50 port 49299
+Nov  5 12:03:20 web01 sshd[2389]: Failed password for invalid user ubuntu from 203.0.113.50 port 49299 ssh2
+Nov  5 12:03:24 web01 sshd[6491]: Invalid user admin from 203.0.113.50 port 43060
+Nov  5 12:03:24 web01 sshd[6491]: Failed password for invalid user admin from 203.0.113.50 port 43060 ssh2
+Nov  5 12:03:28 web01 sshd[6085]: Invalid user admin from 203.0.113.50 port 47361
+Nov  5 12:03:28 web01 sshd[6085]: Failed password for invalid user admin from 203.0.113.50 port 47361 ssh2
+Nov  5 12:03:32 web01 sshd[3414]: Failed password for root from 203.0.113.50 port 40800 ssh2
+Nov  5 12:03:36 web01 sshd[5011]: Invalid user ubuntu from 203.0.113.50 port 55569
+Nov  5 12:03:36 web01 sshd[5011]: Failed password for invalid user ubuntu from 203.0.113.50 port 55569 ssh2
+Nov  5 12:03:40 web01 sshd[2193]: Invalid user oracle from 203.0.113.50 port 54923
+Nov  5 12:03:40 web01 sshd[2193]: Failed password for invalid user oracle from 203.0.113.50 port 54923 ssh2
+Nov  5 12:03:44 web01 sshd[4185]: Invalid user oracle from 203.0.113.50 port 63538
+Nov  5 12:03:44 web01 sshd[4185]: Failed password for invalid user oracle from 203.0.113.50 port 63538 ssh2
+Nov  5 12:03:48 web01 sshd[9099]: Invalid user admin from 203.0.113.50 port 53095
+Nov  5 12:03:48 web01 sshd[9099]: Failed password for invalid user admin from 203.0.113.50 port 53095 ssh2
+Nov  5 12:03:52 web01 sshd[3417]: Failed password for root from 203.0.113.50 port 61497 ssh2
+Nov  5 12:03:56 web01 sshd[2746]: Invalid user admin from 203.0.113.50 port 53931
+Nov  5 12:03:56 web01 sshd[2746]: Failed password for invalid user admin from 203.0.113.50 port 53931 ssh2
+Nov  5 12:04:00 web01 sshd[3881]: Invalid user ubuntu from 203.0.113.50 port 62803
+Nov  5 12:04:00 web01 sshd[3881]: Failed password for invalid user ubuntu from 203.0.113.50 port 62803 ssh2
+Nov  5 12:12:00 web01 CRON[6138]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 12:12:47 web01 sshd[9830]: Accepted password for alice from 192.0.2.10 port 58394 ssh2
+Nov  5 12:12:47 web01 sshd[9830]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 12:24:00 web01 CRON[1936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 12:29:32 web01 sshd[3927]: Accepted publickey for alice from 192.0.2.10 port 64967 ssh2
+Nov  5 12:29:32 web01 sshd[3927]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 12:31:00 web01 sshd[3170]: Failed password for carol from 198.51.100.23 port 51436 ssh2
+Nov  5 12:36:00 web01 CRON[1821]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 12:44:51 web01 sshd[3615]: Accepted password for bob from 192.0.2.11 port 40212 ssh2
+Nov  5 12:44:51 web01 sshd[3615]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 12:48:00 web01 CRON[8811]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 12:51:00 web01 sshd[3584]: Failed password for carol from 198.51.100.23 port 54358 ssh2
+Nov  5 12:56:05 web01 sshd[2654]: Accepted password for alice from 192.0.2.10 port 47628 ssh2
+Nov  5 12:56:05 web01 sshd[2654]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 13:00:00 web01 CRON[9238]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 13:07:00 web01 sshd[8491]: Failed password for bob from 198.51.100.7 port 50360 ssh2
+Nov  5 13:12:00 web01 CRON[9701]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 13:17:17 web01 sshd[8953]: Disconnected from user carol 192.0.2.12 port 61921
+Nov  5 13:24:00 web01 CRON[3579]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 13:31:47 web01 sshd[9830]: Disconnected from user alice 192.0.2.10 port 58394
+Nov  5 13:32:51 web01 sshd[3615]: Disconnected from user bob 192.0.2.11 port 40212
+Nov  5 13:36:00 web01 CRON[1931]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 13:36:05 web01 sshd[2654]: Disconnected from user alice 192.0.2.10 port 47628
+Nov  5 13:47:51 web01 sshd[5073]: Accepted publickey for bob from 192.0.2.11 port 43580 ssh2
+Nov  5 13:47:51 web01 sshd[5073]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 13:48:00 web01 CRON[9320]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 13:48:07 web01 sshd[8123]: Accepted publickey for bob from 192.0.2.11 port 49617 ssh2
+Nov  5 13:48:07 web01 sshd[8123]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 13:54:32 web01 sshd[3927]: Disconnected from user alice 192.0.2.10 port 64967
+Nov  5 14:00:00 web01 CRON[2312]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 14:00:00 web01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/useradd -m dave
+Nov  5 14:00:00 web01 useradd[4242]: new group: name=dave, GID=1004
+Nov  5 14:00:00 web01 useradd[4242]: new user: name=dave, UID=1004, GID=1004, home=/home/dave, shell=/bin/sh, from=/dev/pts/0
+Nov  5 14:01:00 web01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo dave
+Nov  5 14:01:00 web01 usermod[4250]: add 'dave' to group 'sudo'
+Nov  5 14:01:00 web01 usermod[4250]: add 'dave' to shadow group 'sudo'
+Nov  5 14:07:54 web01 sshd[5333]: Accepted publickey for alice from 192.0.2.10 port 51270 ssh2
+Nov  5 14:07:54 web01 sshd[5333]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 14:10:36 web01 sshd[2139]: Accepted publickey for carol from 192.0.2.12 port 46300 ssh2
+Nov  5 14:10:36 web01 sshd[2139]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 14:11:56 web01 sshd[4923]: Accepted publickey for alice from 192.0.2.10 port 50076 ssh2
+Nov  5 14:11:56 web01 sshd[4923]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 14:12:00 web01 CRON[4044]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 14:13:10 web01 sshd[6820]: Accepted publickey for bob from 192.0.2.11 port 52130 ssh2
+Nov  5 14:13:10 web01 sshd[6820]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 14:16:51 web01 sshd[5073]: Disconnected from user bob 192.0.2.11 port 43580
+Nov  5 14:22:28 web01 sshd[8397]: Accepted publickey for carol from 192.0.2.12 port 56959 ssh2
+Nov  5 14:22:28 web01 sshd[8397]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 14:24:00 web01 CRON[2122]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 14:28:17 web01 sshd[4598]: Accepted password for bob from 192.0.2.11 port 60971 ssh2
+Nov  5 14:28:17 web01 sshd[4598]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 14:36:00 web01 CRON[2113]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 14:40:17 web01 sshd[4598]: Disconnected from user bob 192.0.2.11 port 60971
+Nov  5 14:45:56 web01 sshd[8517]: Accepted publickey for bob from 192.0.2.11 port 61064 ssh2
+Nov  5 14:45:56 web01 sshd[8517]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 14:46:56 web01 sshd[4923]: Disconnected from user alice 192.0.2.10 port 50076
+Nov  5 14:48:00 web01 CRON[4853]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 14:51:07 web01 sshd[8123]: Disconnected from user bob 192.0.2.11 port 49617
+Nov  5 14:58:28 web01 sshd[8397]: Disconnected from user carol 192.0.2.12 port 56959
+Nov  5 15:00:00 web01 CRON[7615]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 15:10:54 web01 sshd[5333]: Disconnected from user alice 192.0.2.10 port 51270
+Nov  5 15:12:00 web01 CRON[2964]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 15:12:38 web01 sshd[7304]: Accepted password for alice from 192.0.2.10 port 42081 ssh2
+Nov  5 15:12:38 web01 sshd[7304]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 15:13:13 web01 sshd[4295]: Accepted password for carol from 192.0.2.12 port 57671 ssh2
+Nov  5 15:13:13 web01 sshd[4295]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 15:23:56 web01 sshd[8517]: Disconnected from user bob 192.0.2.11 port 61064
+Nov  5 15:24:00 web01 CRON[5033]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 15:36:00 web01 CRON[1651]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 15:39:08 web01 sshd[4006]: Accepted password for carol from 192.0.2.12 port 53824 ssh2
+Nov  5 15:39:08 web01 sshd[4006]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 15:39:36 web01 sshd[2139]: Disconnected from user carol 192.0.2.12 port 46300
+Nov  5 15:43:10 web01 sshd[6820]: Disconnected from user bob 192.0.2.11 port 52130
+Nov  5 15:48:00 web01 CRON[2343]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 15:58:55 web01 sshd[1887]: Accepted publickey for bob from 192.0.2.11 port 63890 ssh2
+Nov  5 15:58:55 web01 sshd[1887]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 16:00:00 web01 CRON[7868]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 16:09:13 web01 sshd[4295]: Disconnected from user carol 192.0.2.12 port 57671
+Nov  5 16:10:55 web01 sshd[1887]: Disconnected from user bob 192.0.2.11 port 63890
+Nov  5 16:12:00 web01 CRON[9565]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 16:24:00 web01 CRON[6183]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 16:33:38 web01 sshd[7304]: Disconnected from user alice 192.0.2.10 port 42081
+Nov  5 16:36:00 web01 CRON[5272]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 16:39:38 web01 sshd[3504]: Accepted password for bob from 192.0.2.11 port 46517 ssh2
+Nov  5 16:39:38 web01 sshd[3504]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 16:43:08 web01 sshd[4006]: Disconnected from user carol 192.0.2.12 port 53824
+Nov  5 16:48:00 web01 CRON[4346]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 17:00:00 web01 CRON[6147]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 17:01:16 web01 sshd[1188]: Accepted publickey for bob from 192.0.2.11 port 58128 ssh2
+Nov  5 17:01:16 web01 sshd[1188]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 17:03:58 web01 sshd[6310]: Accepted password for carol from 192.0.2.12 port 40018 ssh2
+Nov  5 17:03:58 web01 sshd[6310]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Nov  5 17:04:38 web01 sshd[3504]: Disconnected from user bob 192.0.2.11 port 46517
+Nov  5 17:10:00 web01 sshd[4492]: Failed password for carol from 198.51.100.23 port 56576 ssh2
+Nov  5 17:10:58 web01 sshd[6310]: Disconnected from user carol 192.0.2.12 port 40018
+Nov  5 17:12:00 web01 CRON[4910]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 17:24:00 web01 CRON[5351]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 17:36:00 web01 CRON[7484]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 17:36:00 web01 sshd[2638]: Failed password for bob from 198.51.100.7 port 42400 ssh2
+Nov  5 17:40:56 web01 sshd[6155]: Accepted publickey for alice from 192.0.2.10 port 63524 ssh2
+Nov  5 17:40:56 web01 sshd[6155]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 17:44:36 web01 sshd[4981]: Accepted password for alice from 192.0.2.10 port 55488 ssh2
+Nov  5 17:44:36 web01 sshd[4981]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Nov  5 17:48:00 web01 CRON[3144]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  5 17:57:25 web01 sshd[4593]: Accepted publickey for bob from 192.0.2.11 port 51861 ssh2
+Nov  5 17:57:25 web01 sshd[4593]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Nov  5 18:14:16 web01 sshd[1188]: Disconnected from user bob 192.0.2.11 port 58128
+Nov  5 18:41:36 web01 sshd[4981]: Disconnected from user alice 192.0.2.10 port 55488
+Nov  5 19:07:25 web01 sshd[4593]: Disconnected from user bob 192.0.2.11 port 51861
+Nov  5 19:08:56 web01 sshd[6155]: Disconnected from user alice 192.0.2.10 port 63524
